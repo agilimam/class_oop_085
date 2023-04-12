@@ -8,5 +8,17 @@ private:
     float nilai;
 public:
     void input() {
+        cout << "Masukkan nim : ";
+        cin >> nim;
+        cout << "Masukkan nama : ";
+        cin >> nama;
+        cout << "Masukkan nilai : ";
+        cin >> nilai;
+    }
+    void printData();
+};
 
+void Mahasiswa::printData() {
+
+}
 
