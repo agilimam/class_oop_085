@@ -40,5 +40,23 @@ public:
         cin >> sks;
     }
 
+    void tampil() {
+        cout << "\Data mataKuliah";
+        cout << "\nkode mataKuliah : " << kode;
+        cout << "\nNama mataKuliah : " << namaMK;
+        cout << "\nsks : " << sks;
+    }
+};
 
+int main()
+{
+    Mahasiswa mhs;
+    mataKUliah mk;
+
+    mhs.input();
+    mhs.printData();
+
+    mk.inputMk();
+    mk.tampil();
+}
 
